@@ -4,6 +4,8 @@ interface IFilterProps {}
 
 const Filter: FC<IFilterProps> = () => {
   const [show, setShow] = useState("all");
+  const [start, setStart] = useState("2023-07-22");
+  const [end, setEnd] = useState("2023-12-25");
 
   return (
     <div className="flex flex-col items-center gap-4 md:flex-row">
@@ -16,9 +18,8 @@ const Filter: FC<IFilterProps> = () => {
           type="date"
           id="start"
           name="appointment-start"
-          value="2023-07-22"
-          min="2018-01-01"
-          max="2023-12-31"
+          value={start}
+          onChange={(e) => setStart(e.target.value)}
         />
       </div>
 
@@ -31,9 +32,8 @@ const Filter: FC<IFilterProps> = () => {
           type="date"
           id="end"
           name="appointment-end"
-          value="2023-07-22"
-          min="2018-01-01"
-          max="2023-12-31"
+          value={end}
+          onChange={(e) => setEnd(e.target.value)}
         />
       </div>
 
