@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import VerticalDotsIcon from "../../assets/icons/VerticalDotsIcon";
 import TimeIcon from "../../assets/icons/TimeIcon";
 import NoteIcon from "../../assets/icons/NoteIcon";

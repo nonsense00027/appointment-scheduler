@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import { FC, useState } from "react";
 import MenuIcon from "../../assets/icons/MenuIcon";
 import Filter from "../Filter/Filter";
 import CloseIcon from "../../assets/icons/CloseIcon";
