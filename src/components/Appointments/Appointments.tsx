@@ -1,4 +1,5 @@
 import { FC } from "react";
+
 import Appointment from "../Appointment";
 
 interface IAppointmentsProps {

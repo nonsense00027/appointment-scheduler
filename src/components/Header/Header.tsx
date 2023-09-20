@@ -1,7 +1,9 @@
 import { FC, useState } from "react";
+
 import MenuIcon from "../../assets/icons/MenuIcon";
-import Filter from "../Filter/Filter";
 import CloseIcon from "../../assets/icons/CloseIcon";
+
+import Filter from "../Filter/Filter";
 
 interface IHeaderProps {}
 
@@ -33,7 +35,9 @@ const Header: FC<IHeaderProps> = () => {
             <CloseIcon />
           </button>
         </div>
-        <Filter />
+        <div className="pt-8">
+          <Filter />
+        </div>
       </aside>
     </header>
   );

@@ -1,8 +1,9 @@
 import { FC } from "react";
-import VerticalDotsIcon from "../../assets/icons/VerticalDotsIcon";
+
 import TimeIcon from "../../assets/icons/TimeIcon";
 import NoteIcon from "../../assets/icons/NoteIcon";
 import HeartIcon from "../../assets/icons/HeartIcon";
+import VerticalDotsIcon from "../../assets/icons/VerticalDotsIcon";
 
 interface IAppointmentProps {
   hasNotes: boolean;

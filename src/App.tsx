@@ -1,7 +1,7 @@
-import "./App.css";
+import PlusIcon from "./assets/icons/PlusIcon";
+
 import Header from "./components/Header";
 import Appointments from "./components/Appointments/Appointments";
-import PlusIcon from "./assets/icons/PlusIcon";
 
 function App() {
   return (
@@ -18,10 +18,10 @@ function App() {
         </div>
       </main>
       <div className="fixed bottom-8 right-8 lg:bottom-20 lg:right-20">
-        {/* <p className="absolute bottom-20 text-xs bg-white border rounded-full px-4 py-1 opacity-0 group-hover:opacity-100 transition-all duration-150 ease-out">
-              Create Appointment
-            </p> */}
-        <div className="relative w-16 h-16 bg-blue-600 border-white border rounded-full grid place-content-center shadow-md cursor-pointer hover:bg-blue-700 hover:scale-110 has-transition">
+        <div className="group relative w-16 h-16 bg-blue-600 border-white border rounded-full grid place-content-center shadow-md cursor-pointer hover:bg-blue-700 hover:scale-110 has-transition">
+          <p className="absolute hidden w-36 bottom-20 left-[50%] -translate-x-[50%] text-xs bg-white border rounded-full px-4 py-1 opacity-0 group-hover:opacity-100 lg:block has-transition">
+            Create Appointment
+          </p>
           <PlusIcon />
         </div>
       </div>
