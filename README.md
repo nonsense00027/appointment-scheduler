@@ -10,8 +10,7 @@
 
 It is important to note that while the icons on the appointment cards appear static, they are for design representation and are not currently interactive.
 
-You can access the live version of the project via the following link:
-https://appointment-scheduler-nj3u8gths-nonsense00027.vercel.app
+You can access the live version of the project via the following link: https://appointment-scheduler-beryl.vercel.app
 
 To clone the project, you can follow the following:
 
