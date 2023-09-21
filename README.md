@@ -1,27 +1,21 @@
-# React + TypeScript + Vite
+# Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Utilized a harmonious color palette, primarily consisting of shades of blue, black, and white, ensuring a visually cohesive user experience.
+2. Employed flex positioning to transform appointments into responsive cards, ensuring optimal usability on both desktop and mobile devices.
+3. Enhanced the content structure of the appointment card to optimize user comprehension and achieve a contemporary and aesthetically pleasing design.
+4. Replaced repetitive note badges with a more user-friendly call-to-action feature for adding or viewing notes, which is ideally displayed through a modal/dialog component.
+5. Implemented a floating action button for adding appointments, a design element commonly found on modern websites, contributing to a clean and intuitive user interface.
+6. Adapted the filter functionality to a sidebar format for mobile views, while stacking horizontally to ensure responsiveness.
+7. Incorporated responsive breakpoints to accommodate small, medium, and large screens, thereby enhancing the overall user experience.
 
-Currently, two official plugins are available:
+It is important to note that while the icons on the appointment cards appear static, they are for design representation and are not currently interactive.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can access the live version of the project via the following link:
+https://appointment-scheduler-nj3u8gths-nonsense00027.vercel.app
 
-## Expanding the ESLint configuration
+To clone the project, you can follow the following:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. git clone https://github.com/nonsense00027/appointment-scheduler.git
+2. cd appointment-scheduler
+3. yarn
+4. yarn run dev
